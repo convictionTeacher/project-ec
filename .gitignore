@@ -1,0 +1,25 @@
+# 環境設定ファイル
+.env
+
+# キャッシュとログ
+/var/cache/*
+/var/logs/*
+
+# Composerの依存関係
+/vendor/
+
+# 一時ファイル
+*.tmp
+*.log
+
+# IDEの設定
+.idea/
+.vscode/
+
+# OSによる隠しファイル
+.DS_Store
+Thumbs.db
+
+# その他
+/node_modules/
+*.bak
